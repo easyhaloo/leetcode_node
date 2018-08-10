@@ -5,5 +5,6 @@
 
 ### 题目列表
 - 1. Two Sum
-    - [Array](../Array/TwoSum.md)
-    - [HashMap](../HashTable/TwoSum.md)
+    - [Array](./Array/TwoSum.md)
+    - [HashMap](./HashTable/TwoSum.md)
+    - [Two Pointers](./Two Pointers/TwoSum.md)
