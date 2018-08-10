@@ -7,4 +7,4 @@
 - 1.Two Sum
     - [Array](./Array/TwoSum.md)
     - [HashMap](./HashTable/TwoSum.md)
-    - [Two Pointers](./Two Pointers/TwoSum.md)
+    - [TwoPointers](./TwoPointers/TwoSum.md)
