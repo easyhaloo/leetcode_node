@@ -13,5 +13,5 @@
 - 2.Add Two Numbers
     - [LinkedList](./LinkedList/AddTwoNumbers.md)
 
-- 2.Longest Substring Without Repeating Characters
+- 3.Longest Substring Without Repeating Characters
     - [HashMap](./HashTable/LongestSubstringWithoutRepeatingCharacters.md)

@@ -1,4 +1,6 @@
 Given a string, find the length of the longest substring without repeating characters.
+
+
 `Examples:`
 ```java
 Given "abcabcbb", the answer is "abc", which the length is 3.
@@ -11,7 +13,7 @@ Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer 
 - ### 解析
 > 这道题的意思是求解无重复字符的最长子串，我们可以借助`hashmap`来存放每一段的不重复子串的起始位置，依次遍历，不断更新最长子串的的长度即可。
 >
->使用map记录每个字符出现的第一个位置，当第二次出现的时候证明该子串是不重复的，从Map中取出第一次出现的下标索引，然后用当前的下标索引减去原来的即为此次遍历的子串长度，不断更新最大子串长度的值，循环完毕max即为最大。 
+>使用map记录每个字符出现的第一个位置，当第二次出现的时候证明该子串是不重复的，从Map中取出第一次出现的下标索引，然后用当前的下标索引减去原来的即为此次遍历的子串长度，不断更新最大子串长度的值，循环完毕max即为最大。
 
 
 - ### 代码
