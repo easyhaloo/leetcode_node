@@ -15,3 +15,6 @@
 
 - 3.Longest Substring Without Repeating Characters
     - [HashMap](./HashTable/LongestSubstringWithoutRepeatingCharacters.md)
+
+- 4.Median of Two Sorted Arrays
+    - [BinarySearch](./BinarySearch/MedianOfTwoSortedArrays,md)
