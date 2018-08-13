@@ -18,3 +18,5 @@
 
 - 4.Median of Two Sorted Arrays
     - [BinarySearch](./BinarySearch/MedianOfTwoSortedArrays.md)
+- 5.Longest Palindromic Substring
+    - [String](./String/LongestPalindromicSubstring.md)
