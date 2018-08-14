@@ -20,9 +20,6 @@
     - [BinarySearch](./BinarySearch/MedianOfTwoSortedArrays.md)
 - 5.Longest Palindromic Substring
     - [String](./String/LongestPalindromicSubstring.md)
-<<<<<<< HEAD
-- 6.ZigZag Conversion
-    - [String](./String/ZigZagConversion.md)
-=======
     - [DP](./DynamicProgramming/LongestPalindromicSubstring.md)
->>>>>>> a88fbab78420ea3f6acf6ddcc2a7438d1db4ccfe
+- 6.ZigZag Conversion
+    - [String](./String/ZigZagConversion.md) 
