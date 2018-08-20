@@ -21,3 +21,7 @@
 - 5.Longest Palindromic Substring
     - [String](./String/LongestPalindromicSubstring.md)
     - [DP](./DynamicProgramming/LongestPalindromicSubstring.md)
+- 6.ZigZag Conversion
+    - [String](./String/ZigZagConversion.md)
+- 7.Reverse Integer
+    - [Math](./Math/ReverseInteger.md)
