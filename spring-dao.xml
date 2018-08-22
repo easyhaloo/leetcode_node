@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="userDao" class="com.smartcity.dao.UserDaoImpl"/>
+
+    <bean id="departmentDao" class="com.smartcity.dao.DepartmentDaoImpl"/>
+
+    <bean id="themeDao" class="com.smartcity.dao.ThemeDaoImpl"/>
+
+    <bean id="dataMetaInfoDao" class="com.smartcity.dao.DataMetaInfoDaoImpl"/>
+
+    <bean id="themeConfigurationDao" class="com.smartcity.dao.ThemeConfigurationDaoImpl"/>
+
+    <bean id="themeCatalogDao" class="com.smartcity.dao.ThemeCatalogDaoImpl"/>
+
+    <bean id="themeAuthorization" class="com.smartcity.dao.ThemeAuthorizationMapperImpl"/>
+
+    <bean id="themeConfLayersDao" class="com.smartcity.dao.ThemeConfLayersDaoImpl"/>
+
+    <bean id="resourceDao" class="com.smartcity.dao.ResourceDaoImpl"/>
+
+    <bean id="fileDao" class="com.smartcity.dao.FileDaoImpl"/>
+
+    <bean id="roleDao" class="com.smartcity.dao.RoleDaoImpl"/>
+
+    <bean id="ruleDao" class="com.smartcity.dao.RuleDaoImpl"/>
+
+    <bean id="newsDao" class="com.smartcity.dao.NewsDaoImpl"/>
+
+    <bean id="NewsInformationMapper" class="com.smartcity.dao.NewsInformationMapperImpl"/>
+
+    <bean id="NewsInformationTypeMapper" class="com.smartcity.dao.NewsInformationTypeMapperImpl"/>
+
+    <bean id="noticeDao" class="com.smartcity.dao.NoticeDaoImpl"/>
+
+    <bean id="aboutUsDao" class="com.smartcity.dao.AboutUsDaoImpl"/>
+
+    <bean id="messageDao" class="com.smartcity.dao.MessageDaoImpl"/>
+
+    <bean id="logDao" class="com.smartcity.dao.LogDaoImpl"/>
+
+    <bean id="taskDao" class="com.smartcity.dao.TaskDaoImpl"/>
+
+    <bean id="statisticsDao" class="com.smartcity.dao.StatisticsDaoImpl"/>
+
+    <bean id="tokenDao" class="com.smartcity.dao.TokenDaoImpl"/>
+
+    <bean id="vmWareDao" class="com.smartcity.dao.VmWareDaoImpl"/>
+
+    <bean id="userMarkDao" class="com.smartcity.dao.UserMarkDaoImpl"/>
+
+    <bean id="userBasemapDeployDao" class="com.smartcity.dao.UserBasemapDeployDaoImpl"/>
+
+    <bean id="dcManagementLogsMapper" class="com.smartcity.dao.DcManagementLogsMapperImpl"/>
+
+    <bean id="dcManagementTypeMapperImpl" class="com.smartcity.dao.DcManagementTypeMapperImpl"/>
+
+    <bean id="dcManagementUserMapperImpl" class="com.smartcity.dao.DcManagementUserMapperImpl"/>
+
+    <bean id="dcServersManagementMapperImpl" class="com.smartcity.dao.DcServersManagementMapperImpl"/>
+
+    <bean id="dcLogsMapperImpl" class="com.smartcity.dao.DcLogsMapperImpl"/>
+
+    <bean id="dcTargetManagementMapperImpl" class="com.smartcity.dao.DcTargetManagementMapperImpl"/>
+
+    <bean id="dcProcessMonitorMapperImpl" class="com.smartcity.dao.DcProcessMonitorMapperImpl"/>
+    <bean id="ResourceOrgMapperImpl" class="com.smartcity.dao.ResourceOrgMapperImpl"/>
+    <bean id="ResourceOwnerMapperImpl" class="com.smartcity.dao.ResourceOwnerMapperImpl"/>
+    <bean id="ResourceUserMapperImpl" class="com.smartcity.dao.ResourceUserMapperImpl"/>
+    <bean id="ResourceRoleMapperImpl" class="com.smartcity.dao.ResourceRoleMapperImpl"/>
+    <bean id="DcQuestionsMapperImpl" class="com.smartcity.dao.DcQuestionsMapperImpl"/>
+    <bean id="DcPoiCountMapperImpl" class="com.smartcity.dao.DcPoiCountMapperImpl"/>
+    <bean id="DcAddPoiMapperImpl" class="com.smartcity.dao.DcAddPoiMapperImpl"/>
+
+    <bean id="dbBackupRecoverMapper" class="com.smartcity.dao.DbBackupRecoverMapperImpl"/>
+    <bean id="autoBackupMapper" class="com.smartcity.dao.AutoBackupMapperImpl"/>
+
+    <bean id="fileStoreMapperImpl" class="com.smartcity.dao.FileStoreMapperImpl"/>
+    <bean id="DataBaseStoreMapperImpl" class="com.smartcity.dao.DataBaseStoreMapperImpl"></bean>
+
+    <bean id="DataAuthorizeMapperImpl" class="com.smartcity.dao.DataAuthorizeMapperImpl"/>
+
+    <bean id="targetManagementMapperImpl" class="com.smartcity.dao.TargetManagementMapperImpl"/>
+    <bean id="MetaDataMapperImpl" class="com.smartcity.dao.MetaDataMapperImpl"></bean>
+    <bean id="DataIndexMapperImpl" class="com.smartcity.dao.DataIndexMapperImpl"></bean>
+    <!--<bean id="template" class="com.smartcity.util.DaoTemplate"/>-->
+    <bean id="targetMapperImpl" class="com.smartcity.dao.TargetMapperImpl"/>
+    <bean id="createIndexMapperImpl" class="com.smartcity.dao.CreateIndexMapperImpl"></bean>
+    <bean id="FindDataStoreMapperImpl" class="com.smartcity.dao.FindDataStoreMapperImpl"/>
+    <bean id="DcFileSystemMapperImpl" class="com.smartcity.dao.DcFileSystemMapperImpl"/>
+
+    <bean id="flowMapperImpl" class="com.smartcity.dao.FlowMapperImpl"></bean>
+    <bean id="commonUtil" class="com.smartcity.util.CommonUtil" init-method="init">
+        <property name="dataBaseStoreMapperImpl" ref="DataBaseStoreMapperImpl"/>
+    </bean>
+    <bean id="stepMapperImpl" class="com.smartcity.dao.StepMapperImpl"/>
+    <bean id="stepWorkMapperImpl" class="com.smartcity.dao.StepWorkMapperImpl"/>
+    <bean id="flowLogMapperImpl" class="com.smartcity.dao.FlowLogMapperImpl"/>
+
+
+    <bean id="targetRelationStepMapperImpl" class="com.smartcity.dao.TargetRelationStepMapperImpl"/>
+
+
+    <bean id="BaPassengerThroughputMapperImpl" class="com.smartcity.dao.BaPassengerThroughputMapperImpl"/>
+    <bean id="BaBusStationMapperImpl" class="com.smartcity.dao.BaBusStationMapperImpl"/>
+    <bean id="LayerInfoMapper" class="com.smartcity.dao.LayerInfoMapperImpl"/>
+    <bean id="LayerFieldMapper" class="com.smartcity.dao.LayerFieldMapperImpl"/>
+    <bean id="LayerGroupMapper" class="com.smartcity.dao.LayerGroupMapperImpl"/>
+    <bean id="ShpefileMapperImpl" class="com.smartcity.dao.ShpefileMapperImpl"/>
+    <bean id="LayerServiceMapperImpl" class="com.smartcity.dao.LayerServiceMapperImpl"/>
+    <bean id="LayerPathMapperImpl" class="com.smartcity.dao.LayerPathMapperImpl"/>
+    <bean id="GeocodingMapperImpl" class="com.smartcity.dao.GeocodingMapperImpl"/>
+    <bean id="GeoserverMetadataMapperImpl" class="com.smartcity.dao.GeoserverMetadataMapperImpl"/>
+    <bean id="ShpMetadataMapperImpl" class="com.smartcity.dao.ShpMetadataMapperImpl"/>
+    <bean id="ShpServerAnnexMapperImpl" class="com.smartcity.dao.ShpServerAnnexMapperImpl"/>
+
+
+    <!--uigis配置项DAO-->
+
+    <bean id="ConfigFieldInfoMapperImpl" class="com.smartcity.dao.ConfigFieldInfoMapperImpl"/>
+
+    <bean id="ConfigFieldMetaInfoMapperImpl" class="com.smartcity.dao.ConfigFieldMetaInfoMapperImpl"/>
+
+    <bean id="ConfigLayerBoundInfoMapperImpl" class="com.smartcity.dao.ConfigLayerBoundInfoMapperImpl"/>
+
+    <bean id="ConfigLayerInfoMapperImpl" class="com.smartcity.dao.ConfigLayerInfoMapperImpl"/>
+
+    <bean id="ConfigLayerResourceInfoMapperImpl" class="com.smartcity.dao.ConfigLayerResourceInfoMapperImpl"/>
+
+    <bean id="ConfigLegendInfoMapperImpl" class="com.smartcity.dao.ConfigLegendInfoMapperImpl"/>
+
+    <bean id="ConfigMenuInfoMapperImpl" class="com.smartcity.dao.ConfigMenuInfoMapperImpl"/>
+
+    <bean id="ConfigModuleInfoMapperImpl" class="com.smartcity.dao.ConfigModuleInfoMapperImpl"/>
+
+    <bean id="ConfigStatisticsInfoMapperImpl" class="com.smartcity.dao.ConfigStatisticsInfoMapperImpl"/>
+
+    <bean id="ConfigStatisticsTitleInfoMapperImpl" class="com.smartcity.dao.ConfigStatisticsTitleInfoMapperImpl"/>
+
+    <bean id="ConfigStatisticsAttributeInfoMapperImpl"
+          class="com.smartcity.dao.ConfigStatisticsAttributeInfoMapperImpl"/>
+    <bean id="ServerResourcesMapper" class="com.smartcity.dao.ServerResourcesMapperImpl"/>
+
+
+
+    <bean id="serviceMetadataMapper" class="com.smartcity.dao.ServiceMetadataMapperImpl"></bean>
+
+
+    <bean id="mapStyleMapper" class="com.smartcity.dao.MapStyleMapperImpl"></bean>
+
+    <bean id="themeDirectoryDao" class="com.smartcity.dao.PersonalTopicDirectoryDaoImpl"></bean>
+
+
+    <bean id="PersonalTopicMapperImpl" class="com.smartcity.dao.PersonalTopicMapperImpl"></bean>
+    <bean id="mapMapper" class="com.smartcity.dao.online.drawing.MapMapperImpl"></bean>
+    <bean id="layerMapper" class="com.smartcity.dao.online.drawing.LayerMapperImpl"></bean>
+    <bean id="PersonalTopicConfigurationMapperImpl"
+          class="com.smartcity.dao.PersonalTopicConfigurationMapperImpl"></bean>
+    <bean id="TopicLayerMapperImpl" class="com.smartcity.dao.TopicLayerMapperImpl"></bean>
+    <bean id="geoServerInfoMap" class="com.smartcity.dao.online.drawing.GeoServerInfoMapperImpl"></bean>
+    <bean id="dataGisServerMapper" class="com.smartcity.dao.online.drawing.DataGisServerMapperImpl"></bean>
+    <bean id="StreetCommunityMapper" class="com.smartcity.dao.StreetCommunityMapperImpl"></bean>
+</beans>

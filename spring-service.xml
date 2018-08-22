@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="userService" class="com.smartcity.service.UserServiceImpl"/>
+
+    <bean id="resourceService" class="com.smartcity.service.ResourceServiceImpl"/>
+
+    <bean id="roleService" class="com.smartcity.service.RoleServiceImpl"/>
+
+    <bean id="taskService" class="com.smartcity.service.TaskServiceImpl"/>
+
+    <bean id="fileService" class="com.smartcity.service.FileServiceImpl"/>
+
+    <bean id="statisticsService" class="com.smartcity.service.StatisticsServiceImpl"/>
+
+    <bean id="vmWareService" class="com.smartcity.service.VmWareServiceImpl"/>
+
+    <bean id="logService" class="com.smartcity.service.LogServiceImpl"/>
+
+    <bean id="DashBoardService" class="com.smartcity.service.DashBoardServiceImpl"/>
+
+    <bean id="DcManagementTypeService" class="com.smartcity.service.DcManagementTypeServiceImpl"/>
+
+    <bean id="DcManagementUserServiceImpl" class="com.smartcity.service.DcManagementUserServiceImpl"/>
+
+    <bean id="DcServersManagementServiceImpl" class="com.smartcity.service.DcServersManagementServiceImpl"/>
+
+    <bean id="DcLogsServiceImpl" class="com.smartcity.service.DcLogsServiceImpl"/>
+
+    <bean id="DcTargetManagementServiceImpl" class="com.smartcity.service.DcTargetManagementServiceImpl"/>
+
+    <bean id="DcProcessMonitorServiceImpl" class="com.smartcity.service.DcProcessMonitorServiceImpl"/>
+
+    <bean id="ResourceOrgServiceImpl" class="com.smartcity.service.ResourceOrgServiceImpl"/>
+
+    <bean id="ResourceOwnerServiceImpl" class="com.smartcity.service.ResourceOwnerServiceImpl"/>
+
+    <bean id="ResourceUserServiceImpl" class="com.smartcity.service.ResourceUserServiceImpl"/>
+    <bean id="ResourceRoleServiceImpl" class="com.smartcity.service.ResourceRoleServiceImpl"/>
+    <bean id="DcQuestionsServiceImpl" class="com.smartcity.service.DcQuestionsServiceImpl"/>
+    <bean id="DataBaseServiceImpl" class="com.smartcity.service.DataBaseServiceImpl"/>
+    <bean id="DcAddPoiServiceImpl" class="com.smartcity.service.DcAddPoiServiceImpl"/>
+    <bean id="DcPoiCountServiceImpl" class="com.smartcity.service.DcPoiCountServiceImpl"/>
+
+    <bean id="dbBackupRecoverService" class="com.smartcity.service.DbBackupRecoverServiceImpl"/>
+    <bean id="autoBackupService" class="com.smartcity.service.AutoBackupServiceImpl"/>
+
+    <bean id="FileStoreServiceImpl" class="com.smartcity.service.FileStoreServiceImpl"/>
+    <bean id="DataBaseStoreServiceImpl" class="com.smartcity.service.DataBaseStoreServiceImpl"></bean>
+    <bean id="DataAuthorizeServiceImpl" class="com.smartcity.service.DataAuthorizeServiceImpl"/>
+    <bean id="TargetManagementServiceImpl" class="com.smartcity.service.TargetManagementServiceImpl"/>
+    <bean id="MetaDataServiceImpl" class="com.smartcity.service.MetaDataServiceImpl"></bean>
+    <bean id="DataIndexServiceImpl" class="com.smartcity.service.DataIndexServiceImpl"></bean>
+    <!--<bean id="ResourceOwnerServiceImpl" class="com.smartcity.service.ResourceOwnerServiceImpl"/>-->
+
+    <bean id="TargetServiceImpl" class="com.smartcity.service.TargetServiceImpl"/>
+    <bean id="CreateIndexServiceImpl" class="com.smartcity.service.CreateIndexServiceImpl"></bean>
+
+    <bean id="FindDataStoreServiceImpl" class="com.smartcity.service.FindDataStoreServiceImpl"/>
+    <bean id="DcFileSystemServiceImpl" class="com.smartcity.service.DcFileSystemServiceImpl"/>
+
+    <bean id="FlowServiceImpl" class="com.smartcity.service.FlowServiceImpl"></bean>
+    <bean id="stepServiceImpl" class="com.smartcity.service.StepServiceImpl"></bean>
+    <bean id="targetRelationStepServiceImpl" class="com.smartcity.service.TargetRelationStepServiceImpl"/>
+    <bean id="flowLogServiceImpl" class="com.smartcity.service.FlowLogServiceImpl"></bean>
+
+    <bean id="BaPassengerThroughputServiceImpl" class="com.smartcity.service.BaPassengerThroughputServiceImpl"/>
+
+    <bean id="HttpRemoteServiceImpl" class="com.smartcity.service.HttpRemoteServiceImpl"/>
+
+    <bean id="BaBusStationServiceImpl" class="com.smartcity.service.BaBusStationServiceImpl"/>
+
+    <bean id="SearchServiceImpl" class="com.smartcity.service.SearchServiceImpl"/>
+
+    <bean id="LayerInfoImpl" class="com.smartcity.service.LayerInfoImpl"/>
+    <bean id="LayerFieldImpl" class="com.smartcity.service.LayerFieldServiceImpl"/>
+    <bean id="LayerGroupServiceImpl" class="com.smartcity.service.LayerGroupServiceImpl"/>
+    <bean id="ShpefileServiceImpl" class="com.smartcity.service.ShpefileServiceImpl"/>
+    <bean id="LayerServiceServiceImpl" class="com.smartcity.service.LayerServiceServiceImpl"/>
+    <bean id="LayerPathServiceImpl" class="com.smartcity.service.LayerPathServiceImpl"/>
+    <bean id="GeocodingServiceImpl" class="com.smartcity.service.GeocodingServiceImpl"/>
+    <bean id="GeoserverMetadataService" class="com.smartcity.service.GeoserverMetadataServiceImpl"/>
+    <bean id="ShpMetadataServiceImpl" class="com.smartcity.service.ShpMetadataServiceImpl"/>
+    <bean id="ShpServerServerImpl" class="com.smartcity.service.ShpServerServerImpl"/>
+
+    <!--uigis配置项-->
+
+    <bean id="ConfigFieldInfoServiceImpl" class="com.smartcity.service.ConfigFieldInfoServiceImpl"/>
+
+    <bean id="ConfigFieldMetaInfoServiceImpl" class="com.smartcity.service.ConfigFieldMetaInfoServiceImpl"/>
+
+    <bean id="ConfigLayerBoundInfoMapperServiceImpl" class="com.smartcity.service.ConfigLayerBoundInfoServiceImpl"/>
+
+    <bean id="ConfigLayerInfoMapperServiceImpl" class="com.smartcity.service.ConfigLayerInfoServiceImpl"/>
+
+    <bean id="ConfigStatisticsInfoServiceImpl" class="com.smartcity.service.ConfigStatisticsInfoServiceImpl"/>
+
+    <bean id="ConfigModuleInfoServiceImpl" class="com.smartcity.service.ConfigModuleInfoServiceImpl"/>
+
+    <bean id="ConfigMenuInfoServiceImpl" class="com.smartcity.service.ConfigMenuInfoServiceImpl"/>
+
+    <bean id="ConfigLegendInfoServiceImpl" class="com.smartcity.service.ConfigLegendInfoServiceImpl"/>
+
+    <bean id="ConfigLayerResourceInfoServiceImpl" class="com.smartcity.service.ConfigLayerResourceInfoServiceImpl"/>
+
+    <bean id="ConfigStatisticsTitleInfoServiceImpl" class="com.smartcity.service.ConfigStatisticsTitleInfoServiceImpl"/>
+
+    <bean id="UgisHelperServiceImpl" class="com.smartcity.service.UgisHelperServiceImpl"/>
+
+    <bean id="ConfigStatisticsAttributeInfoServiceImpl"
+          class="com.smartcity.service.ConfigStatisticsAttributeInfoServiceImpl"/>
+    <bean id="ServerResourcesServiceImpl" class="com.smartcity.service.ServerResourcesServiceImpl"/>
+
+    <bean id="NewsInformationServiceImpl" class="com.smartcity.service.NewsInformationServiceImpl"/>
+
+    <bean id="noticeService" class="com.smartcity.service.NoticeServiceImpl"/>
+
+    <bean id="serviceMetadataService" class="com.smartcity.service.ServiceMetadataServiceImpl"></bean>
+
+    <bean id="mapStyleService" class="com.smartcity.service.MapStyleServiceImpl"></bean>
+
+    <bean id="themeAuthorizationService" class="com.smartcity.service.ThemeAuthorizationServiceImpl"/>
+
+    <bean id="PersonalTopicServiceImpl" class="com.smartcity.service.PersonalTopicServiceImpl"></bean>
+
+
+    <bean id="themeDirectoryServiceImpl" class="com.smartcity.service.PersonalTopicDirectoryServiceImpl"></bean>
+
+
+    <bean id="mapService" class="com.smartcity.service.online.drawing.MapServiceImpl"></bean>
+    <bean id="layerService" class="com.smartcity.service.online.drawing.LayerServiceImpl"></bean>
+    <bean id="PersonalTopicConfigurationServiceImpl"
+          class="com.smartcity.service.PersonalTopicConfigurationServiceImpl"></bean>
+    <bean id="TopicLayerServerImpl" class="com.smartcity.service.TopicLayerServerImpl"></bean>
+    <bean id="geoServerInfoService" class="com.smartcity.service.online.drawing.GeoServerInfoServiceImpl"></bean>
+    <bean id="dataGisServerSerivce" class="com.smartcity.service.online.drawing.DataGisServerSerivceImpl"></bean>
+    <bean id="StreetCommunityServiceImpl" class="com.smartcity.service.StreetCommunityServiceImpl"></bean>
+</beans>
