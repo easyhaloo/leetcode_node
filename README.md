@@ -25,3 +25,5 @@
     - [String](./String/ZigZagConversion.md)
 - 7.Reverse Integer
     - [Math](./Math/ReverseInteger.md)
+- 8.Reverse Integer
+    - [Math](./Math/StringToInteger.md)
