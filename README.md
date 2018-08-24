@@ -29,3 +29,6 @@
     - [Math](./Math/StringToInteger.md)
 - 9.String To Integer
     - [Math](./Math/PalindromeNumber.md)
+- 10.String To Integer
+    - [DP](./DynamicProgramming/RegularExpressionMatching.md)
+    - [Backtrcaking](./Backtrcaking/RegularExpressionMatching.md)
