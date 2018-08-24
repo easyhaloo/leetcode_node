@@ -27,7 +27,7 @@
     - [Math](./Math/ReverseInteger.md)
 - 8.String To Integer
     - [Math](./Math/StringToInteger.md)
-- 9.String To Integer
+- 9.Palindrome Number
     - [Math](./Math/PalindromeNumber.md)
 - 10.String To Integer
     - [DP](./DynamicProgramming/RegularExpressionMatching.md)
