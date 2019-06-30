@@ -38,7 +38,7 @@
     - [Math](./Math/RomanToInteger.md)
 - 347 [Top K Frequent Elements](https://leetcode-cn.com/problems/top-k-frequent-elements/)
 
-    - [Heap](./Heap/Top K Frequent Elements.md)
+    - [Heap](./Heap/TopKFrequentElements.md)
 - 1024 Video Stitching
-    - [Greedy](./Greedy/Video Stitching.md)
+    - [Greedy](./Greedy/VideoStitching.md)
 
