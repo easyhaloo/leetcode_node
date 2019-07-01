@@ -39,6 +39,9 @@
 - 347 [Top K Frequent Elements](https://leetcode-cn.com/problems/top-k-frequent-elements/)
 
     - [Heap](./Heap/TopKFrequentElements.md)
+- 866 [Prime Palindrome](https://leetcode-cn.com/problems/prime-palindrome/)
+
+    - [Math](./Math/PrimePalindrome.md)
 - 1024 Video Stitching
     - [Greedy](./Greedy/VideoStitching.md)
 
