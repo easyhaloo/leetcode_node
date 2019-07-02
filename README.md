@@ -39,6 +39,9 @@
 - 347 [Top K Frequent Elements](https://leetcode-cn.com/problems/top-k-frequent-elements/)
 
     - [Heap](./Heap/TopKFrequentElements.md)
+- 682 Baseball Game
+
+    - [Stack](./Stack/BaseballGame.md)
 - 866 [Prime Palindrome](https://leetcode-cn.com/problems/prime-palindrome/)
 
     - [Math](./Math/PrimePalindrome.md)
