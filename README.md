@@ -75,6 +75,11 @@
 
     - [Stack](./Stack/BaseballGame.md)
     
+- 807 Max Increase to Keep City Skyline
+
+
+    - [Math](./Math/MaxIncreaseToKeepCitySkyline.md)
+
 - 866 [Prime Palindrome](https://leetcode-cn.com/problems/prime-palindrome/)
 
     - [Math](./Math/PrimePalindrome.md)
