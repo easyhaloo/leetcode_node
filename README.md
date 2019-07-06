@@ -11,15 +11,15 @@
 
 
 - 2.Add Two Numbers
-    
+  
     - [LinkedList](./LinkedList/AddTwoNumbers.md)
     
 - 3.Longest Substring Without Repeating Characters
-    
+  
     - [HashMap](./HashTable/LongestSubstringWithoutRepeatingCharacters.md)
     
 - 4.Median of Two Sorted Arrays
-    
+  
     - [BinarySearch](./BinarySearch/MedianOfTwoSortedArrays.md)
     
 - 5.Longest Palindromic Substring
@@ -27,19 +27,19 @@
     - [DP](./DynamicProgramming/LongestPalindromicSubstring.md)
     
 - 6.ZigZag Conversion
-    
+  
     - [String](./String/ZigZagConversion.md)
     
 - 7.Reverse Integer
-    
+  
     - [Math](./Math/ReverseInteger.md)
     
 - 8.String To Integer
-    
+  
     - [Math](./Math/StringToInteger.md)
     
 - 9.Palindrome Number
-    
+  
     - [Math](./Math/PalindromeNumber.md)
     
 - 10.String To Integer
@@ -47,15 +47,15 @@
     - [Backtrcaking](./Backtrcaking/RegularExpressionMatching.md)
     
 - 11.Container With Most Water
-    
+  
     - [Two Poninters](./TwoPointers/ContainerWithMostWater.md)
     
 - 12.Integer To Roman
-    
+  
     - [Math](./Math/IntegerToRoman.md)
     
 - 13.Roman To Integer
-    
+  
     - [Math](./Math/RomanToInteger.md)
     
 - 347 [Top K Frequent Elements](https://leetcode-cn.com/problems/top-k-frequent-elements/)
@@ -85,6 +85,12 @@
     - [Math](./Math/PrimePalindrome.md)
     
 - 1024 Video Stitching
-    
+  
     - [Greedy](./Greedy/VideoStitching.md)
+    
+- 1089 Duplication Zeros
+
+    - [TowPointers](./TowPointers/DuplicationZeros.md)
+
+    
 
