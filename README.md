@@ -49,6 +49,8 @@
 - 347 [Top K Frequent Elements](https://leetcode-cn.com/problems/top-k-frequent-elements/)
 
     - [Heap](./Heap/TopKFrequentElements.md)
+- 380 [ Insert Delete GetRandom O(1)](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/)
+    - [Design](./Design/RandomizedSet.md)
 - 457 Circular Array Loop
 
     - [TowPointers](./TowPointers/CircularArrayLoop.md)
@@ -58,11 +60,9 @@
 - 654. Maximum Binary Tree
 
     - [Tree](./Tree/MaximumBinaryTree.md)
-
 - 682 Baseball Game
 
     - [Stack](./Stack/BaseballGame.md)
-
 - 807 Max Increase to Keep City Skyline
 
     - [Math](./Math/MaxIncreaseToKeepCitySkyline.md)
