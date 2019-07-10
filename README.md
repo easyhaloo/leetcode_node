@@ -46,6 +46,9 @@
 - 13.Roman To Integer
   
     - [Math](./Math/RomanToInteger.md)
+- 289 [Game of Life](https://leetcode-cn.com/problems/game-of-life/)
+
+    - [Math](./Math/GameOfLife.md)
 - 347 [Top K Frequent Elements](https://leetcode-cn.com/problems/top-k-frequent-elements/)
 
     - [Heap](./Heap/TopKFrequentElements.md)
@@ -57,8 +60,7 @@
 - 535 Encode and Decode TinyURL
 
     - [HashMap](./HashTable/EncodeAndDecodeTinyURL.md)
-- 654. Maximum Binary Tree
-
+- Maximum Binary Tree
     - [Tree](./Tree/MaximumBinaryTree.md)
 - 682 Baseball Game
 
