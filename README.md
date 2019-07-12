@@ -67,30 +67,34 @@
     - [Heap](./Heap/TopKFrequentElements.md)
     
 - 380 [ Insert Delete GetRandom O(1)](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/)
-    
+  
     - [Design](./Design/RandomizedSet.md)
     
 - 442 [Find All Duplicates in an Array](https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/)
-
 
     - [Array](./Array/FindAllDuplicatesInAnArray.md)
 
 - 457 Circular Array Loop
 
     - [TowPointers](./TowPointers/CircularArrayLoop.md)
-    
+
 - 535 Encode and Decode TinyURL
 
     - [HashMap](./HashTable/EncodeAndDecodeTinyURL.md)
-    
+
+- 560 [Subarray Sum Equals K](https://leetcode-cn.com/problems/subarray-sum-equals-k/)
+
+
+    - [HashMap](./HashTable/SubarraySumEqualsK.md)
+
 - Maximum Binary Tree
-    
+
     - [Tree](./Tree/MaximumBinaryTree.md)
-    
+
 - 682 Baseball Game
 
     - [Stack](./Stack/BaseballGame.md)
-    
+
 - 807 Max Increase to Keep City Skyline
 
     - [Math](./Math/MaxIncreaseToKeepCitySkyline.md)
@@ -98,11 +102,11 @@
 - 866 [Prime Palindrome](https://leetcode-cn.com/problems/prime-palindrome/)
 
     - [Math](./Math/PrimePalindrome.md)
-    
+
 - 1024 Video Stitching
-  
+
     - [Greedy](./Greedy/VideoStitching.md)
-    
+
 - 1089 Duplication Zeros
 
     - [TowPointers](./TowPointers/DuplicationZeros.md)
