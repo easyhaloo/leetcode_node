@@ -84,8 +84,12 @@
 
 - 560 [Subarray Sum Equals K](https://leetcode-cn.com/problems/subarray-sum-equals-k/)
 
-
     - [HashMap](./HashTable/SubarraySumEqualsK.md)
+
+- 566[Reshape the Matrix](https://leetcode-cn.com/problems/reshape-the-matrix/)
+
+
+    - [Array](./Array/ReshapeTheMatrix.md)
 
 - Maximum Binary Tree
 
