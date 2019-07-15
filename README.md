@@ -88,7 +88,6 @@
 
 - 566[Reshape the Matrix](https://leetcode-cn.com/problems/reshape-the-matrix/)
 
-
     - [Array](./Array/ReshapeTheMatrix.md)
 
 - Maximum Binary Tree
@@ -106,6 +105,11 @@
 - 866 [Prime Palindrome](https://leetcode-cn.com/problems/prime-palindrome/)
 
     - [Math](./Math/PrimePalindrome.md)
+
+- 950 [Reveal Cards In Increasing Order](https://leetcode-cn.com/problems/reveal-cards-in-increasing-order/)
+
+
+    - [Array](./Array/RevealCardsInIncreasingOrder.md)
 
 - 1024 Video Stitching
 
