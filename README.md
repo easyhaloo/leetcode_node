@@ -119,5 +119,23 @@
 
     - [TowPointers](./TowPointers/DuplicationZeros.md)
 
+- 1114 [Print in Order](https://leetcode-cn.com/problems/print-in-order/)
+
+    - [Thread](./Thread/PrintInOrder.md)
+
+- 1115 [Print FooBar Alternately](https://leetcode-cn.com/problems/print-foobar-alternately/)
+
+    - [Thread](./Thread/PrintFooBarAlternately.md)
+
+- 
+
+    
+
+    
+    
+    
+    
+    
+    
     
 
