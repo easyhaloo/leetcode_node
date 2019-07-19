@@ -1,3 +1,5 @@
+
+
 # leetcode_node
 
 ### 题解
@@ -82,6 +84,9 @@
 - 866 [Prime Palindrome](https://leetcode-cn.com/problems/prime-palindrome/)
 
     - [Math](./Math/PrimePalindrome.md)
+- 870 [Advantage Shuffle](https://leetcode-cn.com/problems/advantage-shuffle/)
+
+    - [Greedy](./Greedy/AdvantageShuffle.md)
 - 938 [Range Sum of BST](https://leetcode-cn.com/problems/range-sum-of-bst/)
 
     - [Tree](./Tree/RangeSumOfBST.md)
