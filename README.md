@@ -75,6 +75,9 @@
 - Maximum Binary Tree
 
     - [Tree](./Tree/MaximumBinaryTree.md)
+- 611 [Valid Triangle Number](https://leetcode-cn.com/problems/valid-triangle-number/)
+
+    - [Array](./Array/ValidTriangleNumber.md)
 - 682 Baseball Game
 
     - [Stack](./Stack/BaseballGame.md)
@@ -85,8 +88,7 @@
 
     - [Math](./Math/PrimePalindrome.md)
 - 870 [Advantage Shuffle](https://leetcode-cn.com/problems/advantage-shuffle/)
-
-    - [Greedy](./Greedy/AdvantageShuffle.md)
+- [Greedy](./Greedy/AdvantageShuffle.md)
 - 938 [Range Sum of BST](https://leetcode-cn.com/problems/range-sum-of-bst/)
 
     - [Tree](./Tree/RangeSumOfBST.md)
