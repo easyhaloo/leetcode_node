@@ -107,8 +107,11 @@
 
 - 661 [Image Smoother](https://leetcode-cn.com/problems/image-smoother/)
 
+  - [Array](./Array/ImageSmoother.md)
 
-    - [Array](./Array/ImageSmoother.md)
+- 667 [Beautiful Arrangement II](https://leetcode-cn.com/problems/beautiful-arrangement-ii/)
+
+  - [Array](./Array/BeautifulArrangement2.md)
 
 - 682 Baseball Game
 
