@@ -107,11 +107,16 @@
 
 - 661 [Image Smoother](https://leetcode-cn.com/problems/image-smoother/)
 
-  - [Array](./Array/ImageSmoother.md)
+    - [Array](./Array/ImageSmoother.md)
 
 - 667 [Beautiful Arrangement II](https://leetcode-cn.com/problems/beautiful-arrangement-ii/)
 
-  - [Array](./Array/BeautifulArrangement2.md)
+    - [Array](./Array/BeautifulArrangement2.md)
+
+- 670 [Maximum Swap](https://leetcode-cn.com/problems/maximum-swap/)
+
+
+    - [Math](./Math/MaximumSwap.)
 
 - 682 Baseball Game
 
@@ -121,6 +126,11 @@
 
     - [Math](./Math/MaxIncreaseToKeepCitySkyline.md)
 
+- 863 [All Nodes Distance K in Binary Tree](https://leetcode-cn.com/problems/all-nodes-distance-k-in-binary-tree/)
+
+
+    - [Breadth-firstSearch](./Breadth-firstSearch/AllNodesDistanceKInBinaryTree.md)
+
 - 866 [Prime Palindrome](https://leetcode-cn.com/problems/prime-palindrome/)
 
     - [Math](./Math/PrimePalindrome.md)
@@ -128,6 +138,11 @@
 - 870 [Advantage Shuffle](https://leetcode-cn.com/problems/advantage-shuffle/)
 
     - [Greedy](./Greedy/AdvantageShuffle.md)
+
+- 878 [Nth Magical Number](https://leetcode-cn.com/problems/nth-magical-number/)
+
+
+    - [BinarySearch](./BinarySearch/NthMagicalNumber.md)
 
 - 938 [Range Sum of BST](https://leetcode-cn.com/problems/range-sum-of-bst/)
 
