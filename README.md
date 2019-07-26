@@ -116,7 +116,7 @@
 - 670 [Maximum Swap](https://leetcode-cn.com/problems/maximum-swap/)
 
 
-    - [Math](./Math/MaximumSwap.)
+    - [Math](./Math/MaximumSwap.md)
 
 - 682 Baseball Game
 
