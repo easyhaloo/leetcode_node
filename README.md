@@ -121,11 +121,13 @@
 - 682 Baseball Game
 
     - [Stack](./Stack/BaseballGame.md)
-
+- 714 [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
+    - [DP](./BestTimeToBuyAndSellStockWithTransactionFee.md)
+- 769 [ Max Chunks To Make Sorted](https://leetcode-cn.com/problems/max-chunks-to-make-sorted/)
+    - [Array](./Array/MaxChunksToMakeSorted.md)
 - 807 Max Increase to Keep City Skyline
 
     - [Math](./Math/MaxIncreaseToKeepCitySkyline.md)
-
 - 863 [All Nodes Distance K in Binary Tree](https://leetcode-cn.com/problems/all-nodes-distance-k-in-binary-tree/)
 
 
