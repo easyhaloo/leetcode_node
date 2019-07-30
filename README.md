@@ -31,8 +31,7 @@
   
     - [Math](./Math/ReverseInteger.md)
 - 8.String To Integer
-  
-    - [Math](./Math/StringToInteger.md)
+  - [Math](./Math/StringToInteger.md)
 - 9.Palindrome Number
   
     - [Math](./Math/PalindromeNumber.md)
@@ -87,6 +86,10 @@
 
     - [Stack](./Stack/BaseballGame.md)
     
+- 775 [Global and Local Inversions](https://leetcode-cn.com/problems/global-and-local-inversions/)
+
+    - [Array](./Array/GlobalAndLocalInversions.md)
+
 - 807 Max Increase to Keep City Skyline
 
     - [Math](./Math/MaxIncreaseToKeepCitySkyline.md)
