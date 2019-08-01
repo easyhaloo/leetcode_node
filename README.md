@@ -150,6 +150,10 @@
 
     - [Array](./Array/RevealCardsInIncreasingOrder.md)
 
+- 985 [Sum of Even Numbers After Queries](https://leetcode-cn.com/problems/sum-of-even-numbers-after-queries/)
+
+    - [Array](./Array/SumOfEvenNumbersAfterQueries.md)
+
 - 1024 Video Stitching
 
     - [Greedy](./Greedy/VideoStitching.md)
